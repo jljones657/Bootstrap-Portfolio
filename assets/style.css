@@ -1,0 +1,105 @@
+body {
+    background-image: url("../images/starry.png");
+}
+
+.background {
+    width: 960px;
+    height: auto;
+}
+
+.left {
+    text-align: left;
+    color:#777777;
+}
+
+.name {
+    font-family: Helvetica;
+    color:#777777;
+}
+
+.header{
+    width:100%;
+    height:100px;
+    background-color:darkslategrey;
+    color:#777777;
+    font-size: 15px;
+    text-align: right;
+    padding-right: 60px;
+    font-family:Helvetica;
+    top:0;
+    right:0;
+    position:fixed;
+    z-index:2;
+    border-bottom: solid #cccccc 1px;
+}
+
+.bio{
+    height: auto;
+    width:auto;
+    background-color:#ffffff;
+    font-family:Arial;
+    text-align: center;
+    margin-top: 15%;
+    padding: 10px;
+}
+
+.clearfix{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.profileimage{
+    float:left;
+}
+
+.sidebar{
+    width: 33.33333%;
+    height:200px;
+    color:#777777;
+    text-align: center;
+    background-color:#ffffff;
+    padding: 10px;
+    margin-top: 170px;
+}
+
+.footer{
+    width:100%;
+    height: 100px;
+    clear: both;
+    border-top: solid #4aaaa5 5px;
+    text-align: center;
+    color:#777777
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: darkslategrey;
+  }
+
+  input{
+    width:90%;
+}
+
+.textarea {
+    height:200px;
+    width:90%;
+    margin-top:5px;
+}
+
+.form {
+    text-align:middle;
+}
